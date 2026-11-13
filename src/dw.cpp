@@ -1,6 +1,8 @@
 #include "dw.h"
 
-Animal::Animal(const std::string &name){m_name = name}
+Animal::Animal(const std::string &name){
+  m_name = name;
+}
 
 std::string Animal::get_name() const {
   return m_name;
